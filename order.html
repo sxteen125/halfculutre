@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order — halfculutre.</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="black">
+
+  <div class="container">
+    <h2 class="brand">halfculutre.</h2>
+    <h3 class="section-title">Form Pemesanan</h3>
+
+    <form id="orderForm">
+      <label for="service">Layanan</label>
+      <select id="service" required>
+        <option value="">-- Pilih --</option>
+        <option>Instagram Followers</option>
+        <option>Instagram Likes</option>
+        <option>Youtube Views</option>
+      </select>
+
+      <label for="target">Target (username/link)</label>
+      <input type="text" id="target" required />
+
+      <label for="jumlah">Jumlah</label>
+      <input type="number" id="jumlah" required />
+
+      <button type="submit" class="btn full">Kirim Order</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
